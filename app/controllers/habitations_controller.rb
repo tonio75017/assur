@@ -1,7 +1,7 @@
 class HabitationsController < ApplicationController
 
- def index
-
+ def new
+  @habitation = Habitation.new
  end
 
  def create
@@ -10,9 +10,9 @@ class HabitationsController < ApplicationController
 
  def show
 
-
  end
 
-
+ def index
+ end
 
 end

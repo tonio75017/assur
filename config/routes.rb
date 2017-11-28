@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   #Lire tous les comparateurs
  resources :habitations
+
+ resources :assurances, only: [:index]
   #get "assurances" => "assurances#index"
   #get "habitations" => "habitations#show"
   #post "habitations"  => "habitations#create"
