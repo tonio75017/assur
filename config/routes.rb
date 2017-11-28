@@ -3,9 +3,10 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   #Lire tous les comparateurs
-
-  get "assurances" => "assurances#index"
-  get "habitations" => "habitations#show"
+ resources :habitations
+  #get "assurances" => "assurances#index"
+  #get "habitations" => "habitations#show"
+  #post "habitations"  => "habitations#create"
   #afficher formulaire comparateur habitation
 
   # You can have the root of your site routed with "root"
