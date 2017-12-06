@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   #Lire tous les comparateurs
- resources :habitations
+ resources :emprunteurs
+
 
  resources :assurances, only: [:index]
   #get "assurances" => "assurances#index"
