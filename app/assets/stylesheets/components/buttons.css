@@ -1,0 +1,13 @@
+.btn-twitter {
+  background: #FF5400;
+  color: white;
+  border-radius: 4px;
+  font-weight: bolder;
+  padding: 10px 15px;
+  text-decoration: none;
+
+}
+
+.btn-twitter:hover {
+ opacity: 0,6;
+}

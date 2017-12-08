@@ -8,6 +8,7 @@ class EmprunteursController < ApplicationController
  end
 
  def create
+  Emprunteur.create(params[:emprunteur])
 
  end
 

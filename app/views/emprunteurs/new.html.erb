@@ -6,10 +6,23 @@ des grands assureurs et augmentez automatiquement votre pouvoir d'achat !"</h3>
 
 <%= form_for @emprunteur do |f| %>
 
-<%= f.label :emprunt %>
-<%= f.text_field :emprunt %>
 
-<% f.submit %>
+<%= f.text_field :emprunt %>
+<%= f.number_field :nombre, in: 1.0..4.0  %>
+<%= f.number_field :montant %>
+<%= f.number_field :taux, in: 1.0..10.0, step: 0.5 %>
+<%= f.number_field :duree %>
+<%= f.text_field :type %>
+<%= f.number_field :differe %>
+<%= f.date_field :date %>
+
+<%= f.submit %>
 <% end %>
 
 <%= link_to "Retour sur les autres assurances", assurances_path %>
+
+
+
+
+
+
