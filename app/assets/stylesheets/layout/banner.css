@@ -1,0 +1,8 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-image: url(../../images/);
+}
